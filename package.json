@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "An AQW Electron JS client.",
   "productName": "AQLite",
-  "main": "main.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "electron .",
     "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=favicon.icns --prune=true --out=release-builds",
@@ -21,14 +21,12 @@
   "author": "Seth",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^4.0.1",
-    "electron-packager": "^13.0.1",
-    "standard": "^12.0.1"
+    "electron": "^4.0.1"
   },
   "dependencies": {
     "nw-flash-trust": "^0.3.0"
   },
   "build": {
-    "icon": "favicon.ico"
+    "icon": "public/favicon.ico"
   }
 }

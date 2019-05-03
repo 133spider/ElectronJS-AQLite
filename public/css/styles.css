@@ -1,0 +1,123 @@
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgb(27, 27, 27);
+}
+
+html, body {
+   overflow-y: hidden;
+   overflow-x: hidden;
+   height: 100%;
+   width: 100%;
+   background-color: rgb(27, 27, 27);
+}
+
+.section {
+  margin-bottom: 20px;
+  background-color: rgb(27, 27, 27);
+}
+
+.flashContainer {
+  height: 100%;
+}
+
+.divider-setting {
+  margin-top: 8px;
+  background-color: rgb(27, 27, 27);
+}
+
+.setting {
+  margin-left: 20px;
+  background-color: rgb(27, 27, 27);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.setting-switch {
+  margin-right: 20px;
+  float: right;
+}
+
+object {
+  padding-bottom: 0px;
+}
+
+.space {
+  height: 20px;
+  display: block;
+  width: 100%;
+}
+
+.passiveCollapse {
+  width: 200px;
+}
+
+.nodrag {
+  -webkit-app-region: no-drag;
+}
+
+@media only screen and (min-width: 993px) {
+  nav a.sidenav-trigger {
+    display: inline-block;
+  }
+}
+
+.sidenav {
+  background-color: rgb(27, 27, 27);
+  color: rgb(255, 255, 255);
+}
+
+.sidenav-trigger {
+  margin: 0 0;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 30px;
+  line-height: 30px;
+}
+
+nav .sidenav-trigger i {
+  height: 30px;
+  line-height: 30px;
+}
+
+nav {
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    -webkit-app-region: drag;
+}
+
+.dropdown-content {
+  overflow-y: hidden;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 30px;
+    line-height: 30px;
+}
+
+nav .button-collapse i {
+    height: 30px;
+    line-height: 30px;
+}
+
+nav .brand-logo {
+    font-size: 1.6rem;
+}
+
+.title-bar {
+  background-color: rgb(27, 27, 27);
+}
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 30px;
+        line-height: 30px;
+        background-color: rgb(27, 27, 27);
+    }
+}
